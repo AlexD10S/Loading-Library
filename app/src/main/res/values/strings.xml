@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WallOfImages</string>
+
+    <string name="title_main">PINBOARD</string>
+    <string name="explanatory_main_1">For testing purposes, I have enable two options:</string>
+    <string name="explanatory_main_2">- One is using a popular library to load the images.</string>
+    <string name="explanatory_main_3">- The other one is using a library developed by myself to load the images.</string>
+</resources>

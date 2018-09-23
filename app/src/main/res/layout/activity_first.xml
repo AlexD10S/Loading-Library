@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/linearLayout_first"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/title_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_top_margin"
+            android:text="@string/title_main"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/title_pages"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_first_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="@string/explanatory_main_1"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_second_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/explanatory_main_2"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_third_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/explanatory_main_3"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <Button
+                android:id="@+id/Picasso_button"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Open using Picasso"
+                android:textColor="@color/white_background" />
+
+            <Button
+                android:id="@+id/MyLibrary_button"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Open using MyLibrary"
+                android:textColor="@color/white_background" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

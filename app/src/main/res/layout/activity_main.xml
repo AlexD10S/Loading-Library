@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical"
+    tools:context="com.alexd10s.wallofimages.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pinboard_title"
+            android:textSize="@dimen/title_pages"
+            android:text="@string/title_main"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white_background"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_profile"
+                android:src="@mipmap/baseline_account_circle_white_36"
+                android:gravity="center_horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pics_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

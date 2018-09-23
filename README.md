@@ -1,3 +1,5 @@
 # LoadingLibrary
-# LoadingLibrary
-# Loading-Library
+
+A basic image downloading and caching library for Android
+
+
